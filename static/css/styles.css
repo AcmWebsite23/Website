@@ -1,12 +1,12 @@
 :root {
   --light-color:                  #ffffff;
-  --primary-color:                #007bff;
-  --secondary-color:              #3498db;
-  --section-bg-color:             #1D4170;
-  --custom-btn-bg-color:          #2B0096;
-  --custom-btn-bg-hover-color:    #3c3838da;
+  --primary-color:                #3ec5ff;
+  --secondary-color:              #000000;
+  --section-bg-color:             #6ff0fe;
+  --custom-btn-bg-color:          #0173ff;
+  --custom-btn-bg-hover-color:    #E07A5F;
   --dark-color:                   #000000;
-  --p-color:                      #cecece;
+  --p-color:                      #717275;
   --link-hover-color:             #F2CC8F;
 
   --body-font-family:             'DM Sans', sans-serif;
@@ -39,9 +39,8 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
-h2{
-  color: #c1c1c1;
-}
+
+h2,
 h3,
 h4,
 h5,
@@ -124,7 +123,6 @@ strong {
 -----------------------------------------*/
 .section-bg {
   background-color: var(--section-bg-color);
-  background-image: linear-gradient(to right, rgb(60, 68, 107), rgb(17, 32, 97));
 }
 
 .section-padding {
@@ -734,7 +732,6 @@ strong {
 -----------------------------------------*/
 .about-section {
   padding-bottom: 70px;
-  background-image: linear-gradient(rgb(69, 90, 130), rgb(3, 32, 76));
 }
 
 .member-block-image-wrap {
@@ -776,6 +773,8 @@ strong {
 .member-block-info p {
   margin-bottom: 0;
 }
+
+
 /*---------------------------------------
   CUSTOM BLOCK              
 -----------------------------------------*/
@@ -856,7 +855,6 @@ strong {
   font-weight: var(--font-weight-bold);
   min-width: 110px;
   margin-right: 10px;
-  color: #e3e3e3;
 }
 
 .custom-block-icon {
@@ -888,8 +886,6 @@ strong {
 .events-section.section-bg .container > .row {
   margin-right: 5px;
   margin-left: 5px;
-  
-
 }
 
 .events-section.section-bg .container > .row .row {
@@ -913,7 +909,6 @@ strong {
 .events-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-weight-medium);
-  color: rgb(147, 202, 123);
 }
 
 
@@ -923,7 +918,6 @@ strong {
 .membership-section .container {
   position: relative;
   z-index: 2;
-  background-color: #402882;
 }
 
 .table-responsive {
@@ -1372,7 +1366,7 @@ strong {
 
 .section-subhead-text {
   font-size: 25px;
-  color: rgb(77, 77, 77);
+  color: rgb(153, 153, 153);
   line-height: 35px;
   max-width: 470px;
   text-align: center;
