@@ -172,27 +172,20 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                            <h2 class="text-white">Welcome to ACM MPSTME</h2>
+                        <div align="center">
+                            <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                                <h2 class="text-white">Welcome to ACM MPSTME</h2>
 
-                            <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
-                                <span>We are</span>
-                                <span class="cd-words-wrapper">
-                                    <b class="is-visible">Innovative</b>
-                                    <b>Agile</b>
-                                    <b>Cutting Edge</b>
-                                </span>
-                            </h1>
-
-                            <div class="custom-btn-group">
-                                <form>
-                                    <br/>
-                                        <button type="submit" class="btn custom-btn smoothscroll me-3 try-btn" name="submit_button" value="submit" href="www.google.com">Become an ACM Member</button>
-                                </form>
-                                <!-- <a href="#section_3" class="link smoothscroll">Explore Events</a> -->
+                                <div class="custom-btn-group">
+                                    <form>
+                                        <br/>
+                                            <button type="submit" class="btn custom-btn smoothscroll me-3 try-btn" name="submit_button" value="submit" href="www.google.com">Become an ACM Member</button>
+                                    </form>
+                                    <!-- <a href="#section_3" class="link smoothscroll">Explore Events</a> -->
+                                </div>
                             </div>
                         </div>
-
+                        <p></p>
                         <div class="carousel-container">
                             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                               <!-- Indicators -->
@@ -253,22 +246,20 @@
                             <h2 class="mb-lg-5 mb-4">History Of ACM</h2>
                         </div>
 
-                        <div class="col-lg-5 col-12 me-auto mb-4 mb-lg-0 History">
-                            <h3 class="mb-4">Lorem ipsum</h3>
-
-                            <p><strong>ACM</strong> is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida. Ultrices gravida dictum fusce ut placerat orci. Etiam sit amet nisl purus in mollis.</p>
-
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 mb-md-0">
-                            <div class="member-block his-img">
-                                <div class="member-block-image-wrap">
-                                    <img src="images/logo.png" class="member-block-image img-fluid" alt="">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 History">
+                                <h3 class="mb-4">Lorem ipsum</h3>
+                                <p><strong>ACM</strong> is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida. Ultrices gravida dictum fusce ut placerat orci. Etiam sit amet nisl purus in mollis.</p>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-6 col-12 text-center">
+                                <div class="member-block his-img">
+                                    <div class="member-block-image-wrap">
+                                        <img class="member-block-image img-fluid" src="{{ url_for('static', filename='images/logo.png') }}">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
