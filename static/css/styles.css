@@ -1664,3 +1664,18 @@ body {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+
+@media (min-width: 992px) {
+  .carousel-container {
+    max-width: 100%;
+  }
+}
+
+/* CSS for mobile view */
+@media (max-width: 991px) {
+  .carousel-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
