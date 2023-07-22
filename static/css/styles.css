@@ -1,5 +1,6 @@
 :root {
-  --light-color:                  #ffffff;
+  --light-color:                  #45CFDD;
+  --light-colorr:                 #ffffff;
   --primary-color:                #3ec5ff;
   --secondary-color:              #000000;
   --section-bg-color:             #6ff0fe;
@@ -8,6 +9,8 @@
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --link-hover-color:             #F2CC8F;
+
+  --foo:                   #1b0c3b ;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -1339,7 +1342,7 @@ strong {
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px;
-  background-color: rgb(244, 252, 255);
+  background-color: #331271;
 }
 
 .inner-container {
