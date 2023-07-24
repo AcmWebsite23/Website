@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -12,4 +13,5 @@ def form():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+    # app.run(debug=False, host='0.0.0.0')
+    app.run(ssl_context=('cert.pem', 'key.pem'), debug=True)
