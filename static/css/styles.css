@@ -1,5 +1,5 @@
 :root {
-  --light-color:                  #45CFDD;
+  --light-color:                  #061A40;
   --light-colorr:                 #ffffff;
   --primary-color:                #3ec5ff;
   --secondary-color:              #000000;
@@ -1600,4 +1600,36 @@ body {
 
 .event-heading{
   margin-bottom: 2%;
+}
+
+.whatsapp-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.whatsapp-icon i {
+  font-size: 40px; /* Set the desired font size for the WhatsApp icon */
+  color: green;   /* Customize the color of the WhatsApp icon */
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 180px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.whatsapp-icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }

@@ -61,7 +61,7 @@
                 <div class="container">
                     <a class="navbar-brand d-flex align-items-center" href="{{ url_for('index') }}">
                         <img src="{{ url_for('static', filename='images/logo.png') }}" class="img-fluid" alt="logo">
-                        <span class="navbar-brand-text">
+                        <span class="navbar-brand-text" style="color: #ffffff;">
                             ACM MPSTME
                         </span>
                     </a>
@@ -78,19 +78,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="#section_1" style="color: #ffffff;">Home</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                                <a class="nav-link click-scroll" href="#section_2" style="color: #ffffff;">About</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Events</a>
+                                <a class="nav-link click-scroll" href="#section_4" style="color: #ffffff;">Events</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#contact">Contact Us</a>
+                                <a class="nav-link click-scroll" href="#contact" style="color: #ffffff;">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -116,10 +116,18 @@
                         <br>
                         <div class="custom-btn-group text-center text-lg-start">
                           <form action="/form">
-                            <button type="submit" class="btn custom-btn smoothscroll try-btn" name="submit_button" value="submit" href="www.google.com" style="color: #ffffff">Apply Here</button>
+                          <button type="submit" class="btn custom-btn smoothscroll try-btn" name="submit_button" value="submit" style="color: #ffffff">Apply Here</button>
+                          <div class="whatsapp-icon">
+                            <a href="https://chat.whatsapp.com/your-whatsapp-group-link" target="_blank">
+                              <i class="fab fa-whatsapp"></i>
+                              <span class="tooltip">Join our WhatsApp group for updates</span>
+                            </a>
+                          </div>
+                          
                           </form>
                           <!-- <a href="#section_3" class="link smoothscroll">Explore Events</a> -->
                         </div>
+                        
                       </div>
                       <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
                         <div class="carousel-container">
@@ -134,7 +142,9 @@
                             <!-- Slides -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                  <img src="{{ url_for('static', filename='images/chicago.jpg') }}" class="d-block w-100 rounded-image" alt="Image 1">
+                                  <a href="https://www.youtube.com/watch?v=wAFvy-vNtvY" target="_blank">
+                                    <img src="{{ url_for('static', filename='images/car1.png.jpg') }}" class="d-block w-100 rounded-image" alt="Image 1">
+                                  </a>
                                 </div>
                                 <div class="carousel-item">
                                   <img src="{{ url_for('static', filename='images/la.jpg') }}" class="d-block w-100 rounded-image" alt="Image 2">
@@ -184,12 +194,12 @@
                 <div class="container justify-content-center">
 
                         <div class="col-lg-12 col-12 text-center">
-                            <h2 class="mb-lg-5 mb-4">History Of ACM</h2>
+                            <h2 class="mb-lg-5 mb-4" style="color: #ffffff;">History Of ACM</h2>
                         </div>
 
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 History">
-                                <h3 class="mb-4">Lorem ipsum</h3>
+                                <h3 class="mb-4" style="color: #ffffff;">Lorem ipsum</h3>
                                 <p style="color: #ffffff"><strong>ACM</strong> is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida. Ultrices gravida dictum fusce ut placerat orci. Etiam sit amet nisl purus in mollis.</p>
                                 <p style="color: #ffffff"><strong>ACM</strong> is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida. Ultrices gravida dictum fusce ut placerat orci. Etiam sit amet nisl purus in mollis.</p>
                                 <p style="color: #ffffff"><strong>ACM</strong> is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida. Ultrices gravida dictum fusce ut placerat orci. Etiam sit amet nisl purus in mollis.</p>
@@ -208,7 +218,7 @@
             <section id="section_4">
                 <div class="container events">
                     <div class="row">
-                      <h1 align="center" class="event-heading">Our Events</h1>
+                      <h1 align="center" class="event-heading" style="color: #ffffff;">Our Events</h1>
                       <br>
                       <div class="col-lg-6 center-content"> <!-- Added the center-content class -->
                         <div class="card">
@@ -361,6 +371,11 @@
             <ul class="social-icons">
                 <!-- GitHub Icon -->
                 <li>
+                  <a href="https://chat.whatsapp.com/LCFPBRArmqu8YIOZp5tHB4" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+              </li>
+                <li>
                   <a href="https://www.threads.net/@acm_mpstme?igshid=MzRlODBiNWFlZA==" target="_blank">
                     <i class="fab fa-lastfm"></i>
                   </a>
@@ -382,6 +397,12 @@
                       <i class="fab fa-instagram"></i>
                     </a>
                 </li>
+                <li>
+                  <a href="https://discord.gg/VxTezryDKP" target="_blank">
+                    <i class="fab fa-discord"></i>
+                  </a>
+              </li>
+              
             </ul>
             
 
